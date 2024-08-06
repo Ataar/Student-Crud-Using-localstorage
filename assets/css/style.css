@@ -1,0 +1,191 @@
+body {
+    background: linear-gradient(to right, rgba(16, 3, 3, 0.9), rgba(150, 5, 54, 0.965));
+}
+
+
+/*   h1  */
+.form {
+    text-align: center;
+    background-color: rgb(66, 53, 78);
+    padding: 10px 0;
+    color: white;
+    font-family: Cochin;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .form {
+        font-size: 28px;
+    }
+
+}
+
+
+
+
+
+/* ************************************************************************************************************* */
+/* ************************************************************************************************************* */
+
+
+
+
+/*  card */
+
+
+
+.card {
+    background: linear-gradient(rgba(23, 24, 24, 0.9), rgba(8, 0, 0, 0.9));
+    box-shadow: 0 4px 8px rgba(30, 1, 1, 0.1);
+    /* padding: 20px; */
+    border-radius: 5px;
+    font-size: 1rem;
+
+}
+
+
+
+
+/* @media only screen and (min-width:320)  */
+
+@media only screen and (min-width: 320) and (max-width: 480) {
+    .card {
+        padding: 0;
+        margin: 0;
+        font-size: 1.15rem;
+    }
+}
+
+
+
+
+
+/* @media only screen and (min-width: 481px) and (max-width: 768px)  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card {
+        padding: 0px;
+        margin: 0 0px;
+        font-size: 1.25rem;
+    }
+}
+
+
+/* @media only screen and (min-width: 769px)  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card {
+        padding: 0px;
+        /* margin: 20px; */
+        font-size: 1.3rem;
+
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .card {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        padding: 0;
+        ;
+        margin: 0;
+    }
+}
+
+
+
+/* ************************************************************************************************************* */
+/* ************************************************************************************************************* */
+
+
+
+
+/* table th */
+
+
+
+.table-bordered thead th {
+    vertical-align: middle;
+    border: 2px solid #dee2e6;
+    font-size: 17px;
+    padding: 0.46rem;
+}
+
+
+/* table td */
+
+.table td {
+    vertical-align: middle;
+    color: rgb(214, 205, 209);
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #dee2e6;
+}
+
+
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+/* For Small Devices */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .table thead th {
+
+        vertical-align: middle;
+        border-bottom: 2px solid #dee2e6;
+        font-size: 15px;
+        padding: 7px;
+
+    }
+
+
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .table td {
+
+            font-size: 20px;
+            padding: 16px;
+            font-style: italic;
+
+        }
+    }
+
+}
+
+
+
+/* 
+ Medium Devices (Tablets) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .table-bordered thead th {
+        vertical-align: middle;
+        border: 2px solid #dee2e6;
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
+
+        .table td {
+
+            font-size: 20px;
+            padding: 17px;
+            font-style: italic;
+
+        }
+    }
+
+
+}
